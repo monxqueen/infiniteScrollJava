@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="movieTitle">
+        <item name="android:text">Movie Title</item>
+        <item name="android:textColor">#12153D</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
