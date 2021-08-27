@@ -8,5 +8,5 @@ import retrofit2.http.Query;
 
 public interface TMDBService {
     @GET("movie/popular")
-    Single<MovieListResponse> getPopularMovies(@Query("page") Integer currentPage);
+    Single<MovieListResponse> getPopularMovies(@Query("page") int currentPage);
 }

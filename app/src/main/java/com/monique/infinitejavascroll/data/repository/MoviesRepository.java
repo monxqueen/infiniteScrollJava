@@ -7,5 +7,5 @@ import java.util.List;
 import io.reactivex.Single;
 
 public interface MoviesRepository {
-    Single<List<Movie>> getPopularMovies(Integer currentPage);
+    Single<List<Movie>> getPopularMovies(int currentPage);
 }

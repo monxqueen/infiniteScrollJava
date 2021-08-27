@@ -14,7 +14,7 @@ public class MoviesRepositoryImpl implements MoviesRepository {
     private MovieMapper movieMapper = new MovieMapper();
 
     @Override
-    public Single<List<Movie>> getPopularMovies(Integer currentPage) {
+    public Single<List<Movie>> getPopularMovies(int currentPage) {
         return moviesRemoteSource.getPopularMovies(currentPage)
                 .map( movieListResponse ->
                         movieMapper.map(movieListResponse.movieResults)
